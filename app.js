@@ -21,6 +21,7 @@ function getSecureFlip() {
 function finishFlip(outcome) {
   coin.textContent = outcome === 'HEADS' ? 'H' : 'T';
   result.textContent = outcome;
+  result.setAttribute('aria-busy', 'false');
   coin.classList.remove('flip-heads', 'flip-tails');
   flipButton.disabled = false;
   isFlipping = false;
@@ -36,6 +37,7 @@ function flip() {
 
   isFlipping = true;
   flipButton.disabled = true;
+  result.setAttribute('aria-busy', 'true');
   result.textContent = '...';
   coin.textContent = '?';
   coin.classList.remove('flip-heads', 'flip-tails');
