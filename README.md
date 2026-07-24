@@ -2,6 +2,13 @@
 
 A dependency-free GitHub Pages coin flip website powered by the browser's cryptographically secure random number generator.
 
+## Usage
+
+1. Open the coin picker.
+2. Select **FLIP** or press the Space key.
+3. Read the result shown as **HEADS** or **TAILS**.
+4. Press `3` to switch to the three-way picker.
+
 ## Randomness
 
 Each flip:
