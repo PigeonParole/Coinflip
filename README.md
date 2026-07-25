@@ -24,12 +24,10 @@ A software-only website cannot prove literal physical randomness. Web Crypto pro
 ## Features
 
 - Cryptographically secure coin flips
+- Unbiased three-way random picks
 - Responsive desktop and mobile interface
-- Flip animation with reduced-motion support
-- Local statistics and recent history
-- Copyable generation details
-- Dark and light themes
-- Keyboard support with the Space key
+- Reduced-motion support
+- Keyboard navigation between picker modes
 - Installable PWA and offline support
 - No trackers, analytics, external requests, or third-party dependencies
 
@@ -58,4 +56,4 @@ Then open `http://localhost:8000`.
 
 ## Privacy
 
-Flip results and statistics stay in the browser. Statistics are stored in local storage. The service worker caches the website files for offline use. No flip data is transmitted by the application.
+Flip results stay in the browser. The service worker caches the website files for offline use. No result data is transmitted by the application.
