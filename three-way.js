@@ -26,6 +26,7 @@ function getSecureThreeWayPick() {
 function finishPick(choice) {
   picker.textContent = String(choice);
   result.textContent = `OPTION ${choice}`;
+  result.removeAttribute('aria-busy');
   picker.classList.remove('picking');
   pickButton.disabled = false;
   isPicking = false;
@@ -41,6 +42,7 @@ function pick() {
 
   isPicking = true;
   pickButton.disabled = true;
+  result.setAttribute('aria-busy', 'true');
   result.textContent = '...';
   picker.textContent = '?';
   picker.classList.remove('picking');
