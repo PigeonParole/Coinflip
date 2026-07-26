@@ -46,7 +46,7 @@ The expected site address is:
 
 ## Local testing
 
-Run a local HTTPS-capable development server or use localhost, which browsers treat as a secure context. For a quick test with Python:
+Run a local development server from the repository root. Localhost is treated as a secure context by browsers, so Web Crypto remains available. For a quick test with Python:
 
 ```bash
 python -m http.server 8000
