@@ -31,6 +31,10 @@ A software-only website cannot prove literal physical randomness. Web Crypto pro
 - Installable PWA and offline support
 - No trackers, analytics, external requests, or third-party dependencies
 
+## Browser requirements
+
+The site requires JavaScript and the Web Crypto API in a secure browser context. GitHub Pages and `http://localhost` both meet the secure-context requirement in current browsers.
+
 ## GitHub Pages setup
 
 The included workflow deploys the site through GitHub Actions. Every push to `main` triggers a fresh deployment.
