@@ -43,7 +43,7 @@ function pick() {
   isPicking = true;
   pickButton.disabled = true;
   result.setAttribute('aria-busy', 'true');
-  result.textContent = '...';
+  result.textContent = 'PICKING';
   picker.textContent = '?';
   picker.classList.remove('picking');
   void picker.offsetWidth;
