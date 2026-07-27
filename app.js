@@ -38,7 +38,7 @@ function flip() {
   isFlipping = true;
   flipButton.disabled = true;
   result.setAttribute('aria-busy', 'true');
-  result.textContent = '...';
+  result.textContent = 'FLIPPING';
   coin.textContent = '?';
   coin.classList.remove('flip-heads', 'flip-tails');
   void coin.offsetWidth;
