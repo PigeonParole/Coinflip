@@ -9,6 +9,12 @@ A dependency-free GitHub Pages coin flip website powered by the browser's crypto
 3. Read the result shown as **HEADS** or **TAILS**.
 4. Press `3` to switch to the three-way picker.
 
+## Keyboard shortcuts
+
+- `Space`: Run the active picker.
+- `1`: Open the coin picker.
+- `3`: Open the three-way picker.
+
 ## Randomness
 
 Each flip:
