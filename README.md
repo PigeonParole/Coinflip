@@ -64,6 +64,10 @@ python -m http.server 8000
 
 Then open `http://localhost:8000`.
 
+## Offline behavior
+
+After the first successful visit, the service worker caches the core site files. Previously loaded picker pages can then reopen without a network connection.
+
 ## Privacy
 
 Flip results stay in the browser. The service worker caches the website files for offline use. No result data is transmitted by the application.
