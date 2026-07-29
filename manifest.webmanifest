@@ -1,4 +1,5 @@
 {
+  "id": "./",
   "name": "Secure Coin Flip",
   "short_name": "Coin Flip",
   "description": "A fair coin flip powered by cryptographically secure browser randomness.",
