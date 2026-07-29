@@ -4,6 +4,9 @@ const coin = document.querySelector('#coin');
 const result = document.querySelector('#result');
 const flipButton = document.querySelector('#flipButton');
 
+const FLIP_DURATION_MS = 300;
+const REDUCED_MOTION_DURATION_MS = 30;
+
 let isFlipping = false;
 
 function secureRandomAvailable() {
@@ -44,7 +47,8 @@ function flip() {
   void coin.offsetWidth;
   coin.classList.add(outcome === 'HEADS' ? 'flip-heads' : 'flip-tails');
 
-  window.setTimeout(() => finishFlip(outcome), reduceMotion ? 30 : 300);
+  const duration = reduceMotion ? REDUCED_MOTION_DURATION_MS : FLIP_DURATION_MS;
+  window.setTimeout(() => finishFlip(outcome), duration);
 }
 
 if (!secureRandomAvailable()) {
