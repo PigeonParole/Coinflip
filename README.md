@@ -64,6 +64,10 @@ python -m http.server 8000
 
 Then open `http://localhost:8000`.
 
+## App installation
+
+Browsers that support installable web apps may offer an install option in the address bar or browser menu. Installation is optional, and the website works normally without it.
+
 ## Offline behavior
 
 After the first successful visit, the service worker caches the core site files. Previously loaded picker pages can then reopen without a network connection.
