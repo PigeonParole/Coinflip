@@ -76,6 +76,8 @@ Browsers that support installable web apps may offer an install option in the ad
 
 After the first successful visit, the service worker caches the core site files. Previously loaded picker pages can then reopen without a network connection.
 
+After a deployment, refresh the site while online to let the service worker download the newest cached files.
+
 ## Privacy
 
 Flip results stay in the browser. The service worker caches the website files for offline use. No result data is transmitted by the application.
