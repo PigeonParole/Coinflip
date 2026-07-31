@@ -11,5 +11,6 @@ Small fixes and improvements are welcome.
 5. Check that result updates are announced by a screen reader or accessibility inspector.
 6. Check that the site continues to work after refreshing offline.
 7. Confirm that both picker pages load without errors in the browser console.
+8. Validate `manifest.webmanifest` after changing PWA metadata.
 
 Keep changes focused, dependency-free, and compatible with GitHub Pages.
