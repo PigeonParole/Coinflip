@@ -64,6 +64,10 @@ python -m http.server 8000
 
 Then open `http://localhost:8000`.
 
+### Troubleshooting
+
+If the picker shows **UNAVAILABLE**, confirm that the page is being served through HTTPS or localhost rather than opened directly as a local file. Also confirm that JavaScript is enabled.
+
 ## App installation
 
 Browsers that support installable web apps may offer an install option in the address bar or browser menu. Installation is optional, and the website works normally without it.
