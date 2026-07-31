@@ -4,6 +4,7 @@
   "short_name": "Coin Flip",
   "description": "A fair coin flip powered by cryptographically secure browser randomness.",
   "lang": "en",
+  "dir": "ltr",
   "categories": ["utilities"],
   "start_url": "./",
   "scope": "./",
